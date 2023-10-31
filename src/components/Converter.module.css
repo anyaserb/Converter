@@ -1,0 +1,58 @@
+.conteiner {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.imageMoney {
+  height: 110px;
+  width: 110px;
+  margin-bottom: 50px;
+}
+
+.item {
+  width: 450px;
+  height: 70px;
+  background-color: rgba(74, 94, 59, 1);
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+
+}
+
+.button {
+  border: none;
+}
+
+.item .input {
+  width: 100px;
+  padding-left: 24px;
+  font-size: 24px;
+  flex: 0 1 300px;
+}
+
+.course {
+  font-size: 11px;
+  color: rgba(219, 255, 191, 1);
+  background-color: rgba(74, 94, 59, 1);
+  align-self: flex-end;
+  padding-bottom: 3px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-number-up-down-control {
+  -webkit-appearance: none;
+  appearance: none;
+}
+/* прибираємо стрілочки від інпутів */
